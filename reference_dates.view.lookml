@@ -7,8 +7,7 @@
       select distinct dateadd('day',-1,date_trunc('month',lst_trx_date)) AS ref_date
       
       from map_ers_collections
-      order by 1 desc
-      
+      order by 1 desc      
 
   fields:
   
